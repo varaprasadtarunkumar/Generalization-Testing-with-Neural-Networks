@@ -38,13 +38,6 @@ Here is an example table showing dataset types, inputs, outputs, and models test
 
 ![Example Table](https://github.com/varaprasadtarunkumar/Generalization-Testing-with-Neural-Networks/blob/main/Screenshot%202024-06-25%20141407.png)
 
-| Dataset | Data Type                         | Input Example                                         | Output Example                                          | Models Tested                            |
-|---------|-----------------------------------|-------------------------------------------------------|---------------------------------------------------------|------------------------------------------|
-| SCAN    | Command to action sequence        | "jump twice"                                          | "JUMP JUMP"                                              | LSTM, GRU, Transformer                   |
-| COGS    | Sentence to logical form          | "The dog chased the cat."                             | `chase(agent=dog, patient=cat)`                         | Transformer, BERT, GPT, T5, LSTM         |
-| CFQ     | Natural language to SPARQL query  | "Who directed the movie starring Tom Hanks?"          | `SELECT ?x WHERE { ?m rdf:type :Film . ?m :starring :Tom_Hanks . ?m :director ?x . }` | Transformer, BERT, T5, GNN, Seq2Seq     |
-
----
 
 ## Insights from the Internship
 
