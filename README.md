@@ -36,7 +36,7 @@ PCFG is a dataset used to assess generalization of grammar-based tasks. It lever
 
 Here is an example table showing dataset types, inputs, outputs, and models tested on them:
 
-![Example Table](https://path_to_your_image/Screenshot%202024-06-25%20141407.png](https://github.com/varaprasadtarunkumar/Generalization-Testing-with-Neural-Networks/blob/main/Screenshot%202024-06-25%20141407.png))
+![Example Table](https://github.com/varaprasadtarunkumar/Generalization-Testing-with-Neural-Networks/blob/main/Screenshot%202024-06-25%20141407.png)
 
 | Dataset | Data Type                         | Input Example                                         | Output Example                                          | Models Tested                            |
 |---------|-----------------------------------|-------------------------------------------------------|---------------------------------------------------------|------------------------------------------|
@@ -49,4 +49,3 @@ Here is an example table showing dataset types, inputs, outputs, and models test
 ## Insights from the Internship
 
 This project involved evaluating how well the Transformer model could generalize to new examples and unseen combinations in each dataset. For example, SCAN tests whether the Transformer can handle action sequences formed by new combinations of instructions, while COGS examines its ability to transform sentences into logical forms with unseen combinations.
-
